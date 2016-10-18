@@ -1,4 +1,7 @@
 .scroll-content {
+  max-width: 800px;
+  margin: auto;
+
   .backdrop {
     position: fixed;
     top: 0;
@@ -23,17 +26,17 @@
         transition: all .3s linear;
       }
 
-      &.zoomed g:not(.activated) {
+      &.zoomed g[id]:not(.activated) {
         path, polyline, polygon, line, circle {
-          stroke: @df-light-gray !important;
+          stroke: @df-light-gray;
         }
 
-        text {
-          fill: @df-light-gray !important;
+        text, g text {
+          fill: @df-light-gray;
         }
 
         .cls-4, .cls-10 {
-          fill: @df-light-gray !important;
+          fill: @df-light-gray;
         }
       }
     }
@@ -42,7 +45,8 @@
   .layer {
     float: right;
     margin-right: 20px;
-    margin-bottom: 400px;
+    margin-bottom: 500px;
+    margin-bottom: 90vh;
     width: 300px;
     background: white;
     box-shadow: 0 8px 16px fade(black, 20%);
@@ -50,6 +54,11 @@
     padding: 16px;
     font-family: @df-sans;
     font-size: 16px;
+
+    &.first {
+      margin-top: 400px;
+      margin-top: 50vh;
+    }
 
     h2 {
       margin: 0;
