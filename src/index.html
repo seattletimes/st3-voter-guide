@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <%= t.include("partials/_head.html") %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="intro">
+
+      <div class="calculator">
+        <label>Property tax: enter your assessed property value for the 2017 tax year</label>
+        <div class="row">
+          <input data-in="property" value="0">
+          <div class="spacer">=</div>
+          <div class="property output"></div>
+        </div>
+
+        <label>Sales tax: enter your household income</label>
+        <div class="row">
+          <input data-in="sales" value="0">
+          <div class="spacer">=</div>
+          <div class="sales output"></div>
+        </div>
+
+        <label>Car tab: enter the "RTA tax" that you paid on your most recent car-tab bill (<a href="https://fortress.wa.gov/dol/tabs/FeeCalcVehicle.aspx">available here</a>)</label>
+        <div class="row">
+          <input data-in="car" value="0">
+          <div class="spacer">=</div>
+          <div class="car output"></div>
+        </div>
+
+        <div class="final row">
+          <div>Total increase</div>
+          <div class="total output"></div>
+        </div>
+      </div>
+
+    </header>
+
+    <main class="scroll-content">
+      <div class="backdrop">
+        <%= t.include("assets/ST3.svg") %>
+      </div>
+      <% json.stages.forEach(function(stage) { %>
+      <div class="layer" data-layer="<%= stage.layer %>">
+        <h2><%= stage.head %></h2>
+        <p><%= stage.text %></p>
+        <p>Estimated completion date: <%= stage.date %>
+      </div>
+      <% }) %>
+    </main>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

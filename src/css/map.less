@@ -1,0 +1,58 @@
+.scroll-content {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      text {
+        font-family: @df-sans;
+        fill: @df-dark-gray;
+      }
+
+      path, polyline, polygon, line, circle, text {
+        transition: all .3s linear;
+      }
+
+      &.zoomed g:not(.activated) {
+        path, polyline, polygon, line, circle {
+          stroke: @df-light-gray !important;
+        }
+
+        text {
+          fill: @df-light-gray !important;
+        }
+
+        .cls-4, .cls-10 {
+          fill: @df-light-gray !important;
+        }
+      }
+    }
+  }
+
+  .layer {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 400px;
+    width: 300px;
+    background: white;
+    box-shadow: 0 8px 16px fade(black, 20%);
+    clear: both;
+    padding: 16px;
+    font-family: @df-sans;
+    font-size: 16px;
+
+    h2 {
+      margin: 0;
+    }
+  }
+}

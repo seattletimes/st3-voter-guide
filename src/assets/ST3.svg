@@ -1,0 +1,691 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 524.67 902.28" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      .cls-1, .cls-13, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #5dc7d4;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-13, .cls-17, .cls-19, .cls-2, .cls-21 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-13, .cls-16, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21 {
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: #fcaf17;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-14, .cls-4, .cls-7, .cls-9 {
+        fill: #231f20;
+      }
+
+      .cls-11, .cls-12, .cls-15, .cls-5, .cls-6, .cls-8 {
+        fill: #6d6e71;
+      }
+
+      .cls-6 {
+        font-size: 6.9px;
+      }
+
+      .cls-15, .cls-6, .cls-8 {
+        font-family: SunST-ExtraBold, SunST;
+      }
+
+      .cls-10, .cls-14, .cls-15, .cls-6, .cls-8, .cls-9 {
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        font-size: 8px;
+        font-family: SunST-Regular, SunST;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 11px;
+      }
+
+      .cls-10, .cls-14, .cls-9 {
+        font-family: SunST-Bold, SunST;
+      }
+
+      .cls-10 {
+        font-size: 14px;
+      }
+
+      .cls-11 {
+        font-size: 9px;
+      }
+
+      .cls-11, .cls-12 {
+        font-family: SunST-MediumItalic, SunST;
+        font-style: italic;
+      }
+
+      .cls-12 {
+        font-size: 9.01px;
+      }
+
+      .cls-13, .cls-18 {
+        stroke: #42469c;
+      }
+
+      .cls-13, .cls-16, .cls-18, .cls-19, .cls-20, .cls-21 {
+        stroke-dasharray: 6 3;
+      }
+
+      .cls-14, .cls-15 {
+        font-size: 11.01px;
+      }
+
+      .cls-16, .cls-19, .cls-20 {
+        stroke: #e76525;
+      }
+
+      .cls-16, .cls-18 {
+        stroke-linejoin: round;
+      }
+
+      .cls-17 {
+        stroke: #231f20;
+        stroke-width: 0.35px;
+      }
+
+      .cls-20 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-21 {
+        stroke: #00a048;
+      }
+    </style>
+  </defs>
+  <title>ST3-svg</title>
+  <g id="Existing">
+    <path class="cls-1" d="M349.32,475V399.31l-43.12-33.93s-49.35-73.5-28.94-182.75c0,0,6.22-52.83,71-96,27.6-18.4,56.93-25,56.93-25" transform="translate(-104.33 -10.38)"/>
+    <polyline class="cls-1" points="127.35 791.67 167.89 754.44 332 754.44 332 594.02 244.93 490.52 244.93 464.35"/>
+    <line class="cls-1" x1="83.94" y1="832.35" x2="127.35" y2="791.67"/>
+    <line class="cls-2" x1="384.23" y1="359.13" x2="413.41" y2="329.95"/>
+    <polyline class="cls-2" points="285.14 177.14 274.31 189.22 274.69 366.89 250.11 384.29 249.68 428.85"/>
+    <path class="cls-2" d="M266.18,737.79V716.38s0-6.61,5.61-6.61c4.6,0,6,1.87,6,1.87l12.65,12.79V752" transform="translate(-104.33 -10.38)"/>
+    <polyline class="cls-2" points="361.52 388.75 361.52 431 264.06 431 263.77 467.16 285.47 467.16 285.47 539.39 252.65 539.39 252.65 622.77"/>
+    <g>
+      <rect class="cls-3" x="299.28" y="45.12" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M417.32,56A3.68,3.68,0,0,1,421,59.66v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1A3.68,3.68,0,0,1,407.79,56h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53A4.67,4.67,0,0,0,422,60.76v-1.1A4.67,4.67,0,0,0,417.32,55Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="308.57" cy="49.79" r="4.21"/>
+        <path class="cls-5" d="M412.91,56.45a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(306.92 52.14)">P</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="267.07" cy="63.29" r="4.21"/>
+        <path class="cls-5" d="M371.41,70a3.71,3.71,0,1,1-3.71,3.71A3.71,3.71,0,0,1,371.41,70m0-1a4.71,4.71,0,1,0,4.71,4.71A4.72,4.72,0,0,0,371.41,69Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(265.42 65.64)">P</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="173.67" cy="168.5" r="4.21"/>
+        <path class="cls-5" d="M278,175.16a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(172.01 170.85)">P</text>
+    </g>
+    <text class="cls-7" transform="translate(246.34 53.5)">Mukilteo</text>
+    <g>
+      <g>
+        <circle class="cls-3" cx="244.5" cy="439.16" r="4.21"/>
+        <path class="cls-5" d="M348.83,445.83a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(241.76 442.47)">+</text>
+    </g>
+    <text class="cls-9" transform="translate(195.74 150.46)">Lynnwood</text>
+    <text class="cls-9" transform="translate(180.87 226.46)">Shoreline</text>
+    <text class="cls-10" transform="translate(324.07 35.92)">EVERETT</text>
+    <text class="cls-7" transform="translate(321 53.17)">Everett Station</text>
+    <g>
+      <circle class="cls-3" cx="274.05" cy="262.82" r="3.98"/>
+      <path class="cls-4" d="M378.39,270a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <path class="cls-3" d="M393.63,199a4.17,4.17,0,0,1-2.59-.9l-7.46-5.94a4.17,4.17,0,0,1-.67-5.85l.69-.86a4.18,4.18,0,0,1,5.85-.67l7.46,5.94a4.17,4.17,0,0,1,.67,5.85l-.68.86A4.15,4.15,0,0,1,393.63,199Z" transform="translate(-104.33 -10.38)"/>
+      <path class="cls-4" d="M386.87,184.41a3.65,3.65,0,0,1,2.28.79l7.46,5.94a3.68,3.68,0,0,1,.59,5.15l-.69.86a3.68,3.68,0,0,1-5.15.59l-7.46-5.94a3.68,3.68,0,0,1-.59-5.15l.69-.86a3.67,3.67,0,0,1,2.87-1.38m0-1h0a4.65,4.65,0,0,0-3.66,1.76l-.69.86a4.68,4.68,0,0,0,.75,6.56l7.46,5.94a4.68,4.68,0,0,0,6.56-.74l.69-.86a4.67,4.67,0,0,0-.74-6.56l-7.46-5.94a4.67,4.67,0,0,0-2.9-1Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <path class="cls-3" d="M393.63,199a4.17,4.17,0,0,1-2.59-.9l-7.46-5.94a4.17,4.17,0,0,1-.67-5.85l.69-.86a4.18,4.18,0,0,1,5.85-.67l7.46,5.94a4.17,4.17,0,0,1,.67,5.85l-.68.86A4.15,4.15,0,0,1,393.63,199Z" transform="translate(-104.33 -10.38)"/>
+      <path class="cls-4" d="M386.87,184.41a3.65,3.65,0,0,1,2.28.79l7.46,5.94a3.68,3.68,0,0,1,.59,5.15l-.69.86a3.68,3.68,0,0,1-5.15.59l-7.46-5.94a3.68,3.68,0,0,1-.59-5.15l.69-.86a3.67,3.67,0,0,1,2.87-1.38m0-1h0a4.65,4.65,0,0,0-3.66,1.76l-.69.86a4.68,4.68,0,0,0,.75,6.56l7.46,5.94a4.68,4.68,0,0,0,6.56-.74l.69-.86a4.67,4.67,0,0,0-.74-6.56l-7.46-5.94a4.67,4.67,0,0,0-2.9-1Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="267.41" y="232.62" width="17.89" height="9.44" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M385.46,243.5a3.68,3.68,0,0,1,3.67,3.67v1.11a3.68,3.68,0,0,1-3.67,3.67h-9.55a3.68,3.68,0,0,1-3.67-3.67v-1.11a3.68,3.68,0,0,1,3.67-3.67h9.55m0-1h-9.55a4.67,4.67,0,0,0-4.67,4.67v1.11a4.67,4.67,0,0,0,4.67,4.67h9.55a4.67,4.67,0,0,0,4.67-4.67v-1.11a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-11" transform="translate(219.71 183.87)">Lynnwood <tspan x="-14.33" y="10">Transit Center</tspan></text>
+    <text class="cls-12" transform="translate(221.35 240.9)">N.E. 145th</text>
+    <text class="cls-11" transform="translate(222.87 291.2)">Northgate</text>
+    <text class="cls-7" transform="translate(231.34 265.59)">N.E. 130th</text>
+    <text class="cls-11" transform="translate(320.07 412.78)">Mercer<tspan x="0" y="10">Island</tspan></text>
+    <g>
+      <circle class="cls-3" cx="285.76" cy="501.87" r="3.98"/>
+      <path class="cls-4" d="M390.1,509a3.23,3.23,0,1,1-3.23,3.23A3.23,3.23,0,0,1,390.1,509m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="271.92" cy="539.71" r="4.21"/>
+        <path class="cls-5" d="M376.25,546.38a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(270.26 542.07)">P</text>
+    </g>
+    <text class="cls-7" transform="translate(294 503.92)">S. Graham St.</text>
+    <text class="cls-7" transform="translate(263.5 532.42)">S. Boeing Access Rd.</text>
+    <text class="cls-9" transform="translate(348.24 622.62)">Kent</text>
+    <text class="cls-9" transform="translate(348.24 673.62)">Auburn</text>
+    <text class="cls-9" transform="translate(346.74 746.62)">Sumner</text>
+    <g>
+      <g>
+        <circle class="cls-3" cx="317.17" cy="576.5" r="4.21"/>
+        <path class="cls-5" d="M421.5,583.16a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(314.43 579.8)">+</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="332.33" cy="618.16" r="4.21"/>
+        <path class="cls-5" d="M436.67,624.83a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(329.59 621.47)">+</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="332.33" cy="671.16" r="4.21"/>
+        <path class="cls-5" d="M436.67,677.83a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(329.59 674.47)">+</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="332.33" cy="745.16" r="4.21"/>
+        <path class="cls-5" d="M436.67,751.83a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(329.59 748.47)">+</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="293" cy="754.5" r="4.21"/>
+        <path class="cls-5" d="M397.33,761.16a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(290.26 757.8)">+</text>
+    </g>
+    <text class="cls-9" transform="translate(275.32 772.19)">Puyallup</text>
+    <g>
+      <rect class="cls-3" x="181.12" y="738.8" width="9.43" height="17.87" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M290.72,749.68a3.68,3.68,0,0,1,3.67,3.67v9.53a3.68,3.68,0,0,1-3.67,3.67h-1.1a3.68,3.68,0,0,1-3.67-3.67v-9.53a3.68,3.68,0,0,1,3.67-3.67h1.1m0-1h-1.1a4.67,4.67,0,0,0-4.67,4.67v9.53a4.67,4.67,0,0,0,4.67,4.67h1.1a4.67,4.67,0,0,0,4.67-4.67v-9.53a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="130.66" cy="788" r="4.21"/>
+        <path class="cls-5" d="M235,794.67a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(127.92 791.31)">+</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="82.41" cy="833" r="4.21"/>
+        <path class="cls-5" d="M186.74,839.67a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(79.67 836.31)">+</text>
+    </g>
+    <text class="cls-9" transform="translate(17.24 834.54)">Lakewood</text>
+    <text class="cls-7" transform="translate(144.5 796.92)">South<tspan x="0" y="10">Tacoma</tspan></text>
+    <text class="cls-10" transform="translate(145.41 686.51)">TACOMA</text>
+    <text class="cls-11" transform="translate(192 305.54)">Ballard</text>
+    <text class="cls-11" transform="translate(248.5 348.04)">UW</text>
+    <text class="cls-9" transform="translate(264.74 578.12)">Tukwila</text>
+    <text class="cls-9" transform="translate(264.74 578.12)">Tukwila</text>
+    <text class="cls-11" transform="translate(217.74 604.04)">Sea-Tac<tspan x="2.14" y="10">Airport</tspan></text>
+    <g>
+      <g>
+        <circle class="cls-3" cx="185.83" cy="748.5" r="4.21"/>
+        <path class="cls-5" d="M290.17,755.17a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(183.09 751.81)">+</text>
+    </g>
+  </g>
+  <g id="_405_BRT" data-name="405 BRT">
+    <path class="cls-13" d="M394.67,189.71l27.17-30.17s56.09,55.19,55.33,55.19v291l-45.62,65.93H297.38" transform="translate(-104.33 -10.38)"/>
+    <text class="cls-12" transform="translate(378.77 236.56)">UW Bothell</text>
+    <text class="cls-14" transform="translate(421.16 224.13)">Woodinville</text>
+    <text class="cls-14" transform="translate(381.11 205.6)">Bothell</text>
+    <text class="cls-7" transform="translate(360.33 181.25)">Canyon Park</text>
+    <text class="cls-7" transform="translate(380.83 270.59)">Totem Lake</text>
+    <text class="cls-7" transform="translate(380.83 256.59)">Brickyard</text>
+    <g>
+      <g>
+        <polygon class="cls-3" points="347.67 183.94 352.77 178.22 357.88 183.94 352.77 189.65 347.67 183.94"/>
+        <path class="cls-5" d="M457.11,189.35l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(350.03 187.18)">+</text>
+    </g>
+    <g>
+      <g>
+        <polygon class="cls-3" points="367.27 220.44 372.38 214.72 377.5 220.44 372.38 226.15 367.27 220.44"/>
+        <path class="cls-5" d="M476.72,225.85l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-15" transform="translate(369.64 223.68)">+</text>
+    </g>
+    <g>
+      <g>
+        <polygon class="cls-3" points="367.79 254.56 372.9 248.85 378 254.56 372.9 260.27 367.79 254.56"/>
+        <path class="cls-5" d="M477.23,260l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(370.16 257.8)">+</text>
+    </g>
+    <g>
+      <g>
+        <polygon class="cls-3" points="367.79 268.06 372.9 262.35 378 268.06 372.9 273.77 367.79 268.06"/>
+        <path class="cls-5" d="M477.23,273.48l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(371.33 270.48)">P</text>
+    </g>
+    <text class="cls-9" transform="translate(390.28 287.03)">Kirkland</text>
+    <text class="cls-7" transform="translate(381.83 301.59)">N.E. 85th</text>
+    <g>
+      <polygon class="cls-3" points="367.12 299.39 372.56 293.31 378 299.39 372.56 305.48 367.12 299.39"/>
+      <path class="cls-4" d="M476.9,304.81l4.44,5-4.44,5-4.44-5,4.44-5m0-2.25-1.12,1.25-4.44,5-.89,1,.89,1,4.44,5L476.9,317l1.12-1.25,4.44-5,.89-1-.89-1-4.44-5-1.12-1.25Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-7" transform="translate(370 512.92)">N.E. 44th</text>
+    <g>
+      <g>
+        <polygon class="cls-3" points="357.95 510.14 363.06 504.43 368.17 510.14 363.06 515.85 357.95 510.14"/>
+        <path class="cls-5" d="M467.4,515.56l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(361.5 512.56)">P</text>
+    </g>
+    <text class="cls-9" transform="translate(353.45 549.21)">Renton</text>
+    <text class="cls-7" transform="translate(335.5 564.92)">South Renton</text>
+    <g>
+      <g>
+        <polygon class="cls-3" points="322.12 560.97 327.23 555.26 332.33 560.97 327.23 566.68 322.12 560.97"/>
+        <path class="cls-5" d="M431.56,566.39l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(325.66 563.39)">P</text>
+    </g>
+    <g>
+      <rect class="cls-3" x="246.21" y="556.52" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M364.24,567.4a3.68,3.68,0,0,1,3.67,3.67v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1a3.68,3.68,0,0,1,3.67-3.67h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53a4.67,4.67,0,0,0,4.67-4.67v-1.1a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-9" transform="translate(145.41 560.62)">Burien</text>
+    <text class="cls-11" transform="translate(172.93 577.54)">Burien<tspan x="-28.21" y="10">Transit Center</tspan></text>
+    <text class="cls-11" transform="translate(217.24 576.54)">Tukwila<tspan x="-7.56" y="10">Int’l Blvd.</tspan></text>
+    <g>
+      <g>
+        <polygon class="cls-3" points="192.13 561.56 197.23 555.85 202.34 561.56 197.23 567.27 192.13 561.56"/>
+        <path class="cls-5" d="M301.57,567l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-8" transform="translate(194.49 564.8)">+</text>
+    </g>
+    <g>
+      <path class="cls-3" d="M393.63,199a4.17,4.17,0,0,1-2.59-.9l-7.46-5.94a4.17,4.17,0,0,1-.67-5.85l.69-.86a4.18,4.18,0,0,1,5.85-.67l7.46,5.94a4.17,4.17,0,0,1,.67,5.85l-.68.86A4.15,4.15,0,0,1,393.63,199Z" transform="translate(-104.33 -10.38)"/>
+      <path class="cls-4" d="M386.87,184.41a3.65,3.65,0,0,1,2.28.79l7.46,5.94a3.68,3.68,0,0,1,.59,5.15l-.69.86a3.68,3.68,0,0,1-5.15.59l-7.46-5.94a3.68,3.68,0,0,1-.59-5.15l.69-.86a3.67,3.67,0,0,1,2.87-1.38m0-1h0a4.65,4.65,0,0,0-3.66,1.76l-.69.86a4.68,4.68,0,0,0,.75,6.56l7.46,5.94a4.68,4.68,0,0,0,6.56-.74l.69-.86a4.67,4.67,0,0,0-.74-6.56l-7.46-5.94a4.67,4.67,0,0,0-2.9-1Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-9" transform="translate(264.74 578.12)">Tukwila</text>
+  </g>
+  <g id="Everett">
+    <g>
+      <rect class="cls-3" x="299.28" y="45.12" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M417.32,56A3.68,3.68,0,0,1,421,59.66v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1A3.68,3.68,0,0,1,407.79,56h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53A4.67,4.67,0,0,0,422,60.76v-1.1A4.67,4.67,0,0,0,417.32,55Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="308.57" cy="49.79" r="4.21"/>
+        <path class="cls-5" d="M412.91,56.45a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(306.92 52.14)">P</text>
+    </g>
+    <path class="cls-16" d="M418.51,65.54V89.19H391.68s-2.68,24.53,26.07,35.27v32.2L391,186.14" transform="translate(-104.33 -10.38)"/>
+    <g>
+      <g>
+        <circle class="cls-3" cx="314.65" cy="115.33" r="4.21"/>
+        <path class="cls-5" d="M419,122a3.71,3.71,0,1,1-3.71,3.71A3.71,3.71,0,0,1,419,122m0-1a4.71,4.71,0,1,0,4.71,4.71A4.72,4.72,0,0,0,419,121Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(313 117.69)">P</text>
+    </g>
+    <g>
+      <circle class="cls-3" cx="293.6" cy="168.52" r="3.98"/>
+      <path class="cls-4" d="M397.94,175.67a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="314.3" cy="140.92" r="3.98"/>
+      <path class="cls-4" d="M418.64,148.07a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="299.35" cy="105.27" r="3.98"/>
+      <path class="cls-4" d="M403.69,112.42a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="299.35" cy="79.97" r="3.98"/>
+      <path class="cls-4" d="M403.69,87.12a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="287.85" cy="80.12" r="3.98"/>
+      <path class="cls-4" d="M392.19,87.27A3.23,3.23,0,1,1,389,90.49a3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-9" transform="translate(195.74 150.46)">Lynnwood</text>
+    <text class="cls-7" transform="translate(321.92 91.25)">SR 526/<tspan x="0" y="10">Evergreen</tspan></text>
+    <text class="cls-7" transform="translate(245.18 84.75)">SW Everett<tspan x="-19.22" y="10">Industrial Center</tspan></text>
+    <text class="cls-7" transform="translate(271.34 113.83)">SR 99/<tspan x="-19.19" y="10">Airport Road</tspan><tspan x="-19.25" y="20">(provisional)</tspan></text>
+    <text class="cls-7" transform="translate(321.92 119.25)">Mariner</text>
+    <text class="cls-7" transform="translate(321.17 143.25)">Ash Way</text>
+    <polyline class="cls-17" points="299.33 84.5 299.33 89.33 320.17 89.33"/>
+    <text class="cls-7" transform="translate(208.95 167.25)">West Alderwood Mall</text>
+    <text class="cls-11" transform="translate(318.24 7.54)">Everett College</text>
+    <text class="cls-10" transform="translate(324.07 35.92)">EVERETT</text>
+    <text class="cls-7" transform="translate(321 53.17)">Everett Station</text>
+  </g>
+  <g id="_522_BRT" data-name="522 BRT">
+    <polyline class="cls-18" points="285.82 237.23 303.73 237.23 303.73 219.98 366.86 219.98"/>
+    <text class="cls-9" transform="translate(180.87 226.46)">Shoreline</text>
+    <g>
+      <rect class="cls-3" x="267.41" y="232.62" width="17.89" height="9.44" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M385.46,243.5a3.68,3.68,0,0,1,3.67,3.67v1.11a3.68,3.68,0,0,1-3.67,3.67h-9.55a3.68,3.68,0,0,1-3.67-3.67v-1.11a3.68,3.68,0,0,1,3.67-3.67h9.55m0-1h-9.55a4.67,4.67,0,0,0-4.67,4.67v1.11a4.67,4.67,0,0,0,4.67,4.67h9.55a4.67,4.67,0,0,0,4.67-4.67v-1.11a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-12" transform="translate(221.35 240.9)">N.E. 145th</text>
+    <text class="cls-12" transform="translate(378.77 236.56)">UW Bothell</text>
+    <text class="cls-14" transform="translate(421.16 224.13)">Woodinville</text>
+    <text class="cls-14" transform="translate(381.11 205.6)">Bothell</text>
+    <g>
+      <g>
+        <polygon class="cls-3" points="367.27 220.44 372.38 214.72 377.5 220.44 372.38 226.15 367.27 220.44"/>
+        <path class="cls-5" d="M476.72,225.85l4.44,5-4.44,5-4.44-5,4.44-5m0-1.5-.75.83-4.44,5-.6.67.6.67,4.44,5,.75.83.75-.83,4.44-5,.6-.67-.6-.67-4.44-5-.75-.83Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-15" transform="translate(369.64 223.68)">+</text>
+    </g>
+  </g>
+  <g id="Kirkland">
+    <polyline class="cls-19" points="360.08 382.27 381.79 361.29 381.79 338.72 354.47 322.76"/>
+    <g>
+      <rect class="cls-3" x="358.82" y="377.51" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M476.86,388.39a3.68,3.68,0,0,1,3.67,3.67v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1a3.68,3.68,0,0,1,3.67-3.67h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53a4.67,4.67,0,0,0,4.67-4.67v-1.1a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="356.07" cy="323.28" r="4.21"/>
+        <path class="cls-5" d="M460.4,329.95a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(354.41 325.64)">P</text>
+    </g>
+    <text class="cls-10" transform="translate(427.74 385.75)">BELLEVUE</text>
+    <text class="cls-7" transform="translate(382 384.09)">Bellevue</text>
+    <text class="cls-7" transform="translate(329.45 324.09)">South<tspan x="-7.59" y="10">Kirkland</tspan></text>
+  </g>
+  <g id="Issaquah">
+    <g>
+      <rect class="cls-3" x="358.82" y="377.51" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M476.86,388.39a3.68,3.68,0,0,1,3.67,3.67v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1a3.68,3.68,0,0,1,3.67-3.67h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53a4.67,4.67,0,0,0,4.67-4.67v-1.1a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-10" transform="translate(427.74 385.75)">BELLEVUE</text>
+    <text class="cls-7" transform="translate(382 384.09)">Bellevue</text>
+    <polyline class="cls-19" points="455.24 449.69 381.36 427.7 381.36 396.22 367.2 386.94"/>
+    <g>
+      <circle class="cls-3" cx="381.29" cy="420.37" r="3.98"/>
+      <path class="cls-4" d="M485.62,427.52a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="403.14" cy="434.17" r="3.98"/>
+      <path class="cls-4" d="M507.47,441.32a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="431.89" cy="442.22" r="3.98"/>
+      <path class="cls-4" d="M536.22,449.37a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="453.57" cy="449.28" r="4.21"/>
+        <path class="cls-5" d="M557.9,455.95a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(451.91 451.64)">P</text>
+    </g>
+    <text class="cls-9" transform="translate(461.74 450.29)">Issaquah</text>
+    <text class="cls-7" transform="translate(449 462.75)">Central<tspan x="0" y="10">Issaquah</tspan></text>
+    <text class="cls-7" transform="translate(389 422.09)">Richards Road</text>
+    <text class="cls-7" transform="translate(379 446.75)">Eastgate</text>
+    <text class="cls-7" transform="translate(407.36 456.42)">Lakemont<tspan x="-8.77" y="10">(provisional)</tspan></text>
+  </g>
+  <g id="Redmond">
+    <polyline class="cls-19" points="414.42 328.94 437.85 312.99 459.27 309.1 447.62 296.88"/>
+    <g>
+      <circle class="cls-3" cx="450" cy="299.62" r="3.98"/>
+      <path class="cls-4" d="M554.34,306.77a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="460.65" cy="309.78" r="4.21"/>
+        <path class="cls-5" d="M565,316.45a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(459 312.14)">P</text>
+    </g>
+    <text class="cls-7" transform="translate(467.83 313.09)">Southeast<tspan x="0" y="10">Redmond</tspan></text>
+    <text class="cls-7" transform="translate(453.83 282.59)">Downtown<tspan x="0" y="10">Redmond</tspan></text>
+  </g>
+  <g id="Ballard">
+    <polyline class="cls-19" points="204.35 312.84 204.35 362.29 263.77 413.66 263.77 428.68"/>
+    <g>
+      <circle class="cls-3" cx="263.41" cy="421.52" r="3.98"/>
+      <path class="cls-4" d="M367.75,428.67a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="236.96" cy="390.47" r="3.98"/>
+      <path class="cls-4" d="M341.3,397.62a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="225.46" cy="381.27" r="3.98"/>
+      <path class="cls-4" d="M329.8,388.42a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="216.26" cy="373.22" r="3.98"/>
+      <path class="cls-4" d="M320.6,380.37a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="205.91" cy="364.02" r="3.98"/>
+      <path class="cls-4" d="M310.25,371.17a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="204.76" cy="342.17" r="3.98"/>
+      <path class="cls-4" d="M309.1,349.32a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="204.76" cy="318.02" r="3.98"/>
+      <path class="cls-4" d="M309.1,325.17a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="246.21" y="405.87" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M364.24,416.75a3.68,3.68,0,0,1,3.67,3.67v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1a3.68,3.68,0,0,1,3.67-3.67h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53a4.67,4.67,0,0,0,4.67-4.67v-1.1a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-10" transform="translate(146.86 416.25)">SEATTLE</text>
+    <text class="cls-7" transform="translate(211 320.25)">Ballard</text>
+    <text class="cls-7" transform="translate(211 344.25)">Interbay</text>
+    <text class="cls-7" transform="translate(156.95 367.92)">Smith Cove</text>
+    <text class="cls-7" transform="translate(158.68 379.92)">Seattle Center</text>
+    <text class="cls-7" transform="translate(161.78 390.92)">South Lake Union</text>
+    <text class="cls-7" transform="translate(210.16 401.92)">Denny</text>
+    <text class="cls-7" transform="translate(208.6 413.92)">Westlake</text>
+    <text class="cls-7" transform="translate(270 425.42)">Midtown</text>
+  </g>
+  <g id="West_Seattle" data-name="West Seattle">
+    <polyline class="cls-19" points="249.68 428.99 249.68 465.6 195.63 465.6"/>
+    <g>
+      <circle class="cls-3" cx="196.71" cy="465.22" r="3.98"/>
+      <path class="cls-4" d="M301,472.37a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="212.81" cy="465.22" r="3.98"/>
+      <path class="cls-4" d="M317.15,472.37a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="226.61" cy="465.22" r="3.98"/>
+      <path class="cls-4" d="M330.95,472.37a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="249.61" cy="447.97" r="3.98"/>
+      <path class="cls-4" d="M353.95,455.12a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="246.21" y="426.57" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M364.24,437.45a3.68,3.68,0,0,1,3.67,3.67v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1a3.68,3.68,0,0,1,3.67-3.67h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53a4.67,4.67,0,0,0,4.67-4.67v-1.1a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="246.21" y="461.07" width="17.87" height="9.43" rx="4.17" ry="4.17"/>
+      <path class="cls-4" d="M364.24,472a3.68,3.68,0,0,1,3.67,3.67v1.1a3.68,3.68,0,0,1-3.67,3.67h-9.53a3.68,3.68,0,0,1-3.67-3.67v-1.1a3.68,3.68,0,0,1,3.67-3.67h9.53m0-1h-9.53a4.67,4.67,0,0,0-4.67,4.67v1.1a4.67,4.67,0,0,0,4.67,4.67h9.53a4.67,4.67,0,0,0,4.67-4.67v-1.1a4.67,4.67,0,0,0-4.67-4.67Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-11" transform="translate(142.91 454.54)">West Seattle</text>
+    <text class="cls-7" transform="translate(130.11 433.92)">International District/Chinatown</text>
+    <text class="cls-7" transform="translate(211.3 451.92)">Stadium</text>
+    <text class="cls-7" transform="translate(138.45 466.92)">Alaska Junction</text>
+    <text class="cls-7" transform="translate(256.83 479.25)">SODO</text>
+    <text class="cls-7" transform="translate(200.19 483.59)">Avalon</text>
+    <text class="cls-7" transform="translate(208.68 495.92)">Delridge</text>
+    <line class="cls-17" x1="212" y1="469.5" x2="212" y2="476.16"/>
+    <line class="cls-17" x1="226.61" y1="468.44" x2="226.61" y2="488.5"/>
+  </g>
+  <g id="South_Federal_Way" data-name="South Federal Way">
+    <polyline class="cls-20" points="252.65 677.75 252.65 742.27 191.39 742.27"/>
+    <g>
+      <g>
+        <circle class="cls-3" cx="252.81" cy="677.36" r="4.21"/>
+        <path class="cls-5" d="M357.14,684a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(251.15 679.72)">P</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="252.81" cy="705.36" r="4.21"/>
+        <path class="cls-5" d="M357.14,712a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(251.15 707.72)">P</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="242.81" cy="742.11" r="4.21"/>
+        <path class="cls-5" d="M347.14,748.78a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(241.15 744.47)">P</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="212.81" cy="742.11" r="4.21"/>
+        <path class="cls-5" d="M317.14,748.78a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(211.15 744.47)">P</text>
+    </g>
+    <text class="cls-7" transform="translate(263 679.92)">Federal Way<tspan x="0" y="10">Transit Center</tspan></text>
+    <g>
+      <g>
+        <circle class="cls-3" cx="252.81" cy="677.36" r="4.21"/>
+        <path class="cls-5" d="M357.14,684a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(251.15 679.72)">P</text>
+    </g>
+    <text class="cls-7" transform="translate(263 679.92)">Federal Way<tspan x="0" y="10">Transit Center</tspan></text>
+    <text class="cls-7" transform="translate(264.5 707.42)">South<tspan x="0" y="10">Federal Way</tspan></text>
+    <text class="cls-7" transform="translate(239 772.42)">Fife</text>
+    <line class="cls-17" x1="243.07" y1="746.31" x2="243.07" y2="764"/>
+    <text class="cls-7" transform="translate(206.47 772.42)">East<tspan x="-5.98" y="10">Tacoma</tspan></text>
+    <line class="cls-17" x1="213.07" y1="746.31" x2="213.07" y2="764"/>
+    <text class="cls-9" transform="translate(220.33 711.26)">Fife</text>
+  </g>
+  <g id="Federal_Way" data-name="Federal Way">
+    <line class="cls-20" x1="252.65" y1="624.4" x2="252.65" y2="672.75"/>
+    <g>
+      <g>
+        <circle class="cls-3" cx="252.81" cy="653.36" r="4.21"/>
+        <path class="cls-5" d="M357.14,660a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(251.15 655.72)">P</text>
+    </g>
+    <text class="cls-9" transform="translate(181.38 658.4)">Federal Way</text>
+    <text class="cls-11" transform="translate(217.74 604.04)">Sea-Tac<tspan x="2.14" y="10">Airport</tspan></text>
+    <text class="cls-7" transform="translate(264 655.92)">S. 272nd</text>
+    <text class="cls-9" transform="translate(158.04 625.4)">Des Moines</text>
+    <g>
+      <g>
+        <circle class="cls-3" cx="252.81" cy="677.36" r="4.21"/>
+        <path class="cls-5" d="M357.14,684a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(251.15 679.72)">P</text>
+    </g>
+    <text class="cls-7" transform="translate(263 679.92)">Federal Way<tspan x="0" y="10">Transit Center</tspan></text>
+  </g>
+  <g id="Tacoma">
+    <line class="cls-19" x1="91.46" y1="727.61" x2="161.42" y2="727.61"/>
+    <g>
+      <circle class="cls-3" cx="93.42" cy="728.14" r="3.98"/>
+      <path class="cls-4" d="M197.76,735.28a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="106.07" cy="728.14" r="3.98"/>
+      <path class="cls-4" d="M210.41,735.28a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="119.87" cy="728.14" r="3.98"/>
+      <path class="cls-4" d="M224.21,735.28a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="131.37" cy="728.14" r="3.98"/>
+      <path class="cls-4" d="M235.71,735.28a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="145.17" cy="728.14" r="3.98"/>
+      <path class="cls-4" d="M249.51,735.28a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <g>
+      <circle class="cls-3" cx="157.82" cy="728.14" r="3.98"/>
+      <path class="cls-4" d="M262.16,735.28a3.23,3.23,0,1,1-3.23,3.23,3.23,3.23,0,0,1,3.23-3.23m0-1.5a4.73,4.73,0,1,0,4.73,4.73,4.73,4.73,0,0,0-4.73-4.73Z" transform="translate(-104.33 -10.38)"/>
+    </g>
+    <text class="cls-7" transform="translate(60.99 729.42)">Tacoma<tspan x="-12.74" y="10">Community</tspan><tspan x="1.14" y="20">College</tspan></text>
+    <text class="cls-7" transform="translate(93.25 717.42)">Pearl</text>
+    <line class="cls-17" x1="105.92" y1="719.25" x2="105.92" y2="724.34"/>
+    <text class="cls-7" transform="translate(100.37 706.42)">Stevens</text>
+    <text class="cls-7" transform="translate(151.83 743.67)">Hilltop</text>
+    <text class="cls-7" transform="translate(120.91 743.67)">Sprague</text>
+    <line class="cls-17" x1="119.92" y1="708.5" x2="119.92" y2="724.68"/>
+    <text class="cls-7" transform="translate(118.95 696.67)">Union</text>
+    <line class="cls-17" x1="130.92" y1="698.75" x2="130.92" y2="724.77"/>
+    <line class="cls-17" x1="145.17" y1="732.5" x2="145.17" y2="737.33"/>
+    <line class="cls-17" x1="158.17" y1="732.5" x2="158.17" y2="737.33"/>
+  </g>
+  <g id="DuPont">
+    <line class="cls-21" x1="39.66" y1="873.61" x2="83.07" y2="832.93"/>
+    <g>
+      <g>
+        <circle class="cls-3" cx="58.96" cy="855.53" r="4.21"/>
+        <path class="cls-5" d="M163.3,862.2a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(57.31 857.89)">P</text>
+    </g>
+    <g>
+      <g>
+        <circle class="cls-3" cx="41.29" cy="872.16" r="4.21"/>
+        <path class="cls-5" d="M145.62,878.83a3.71,3.71,0,1,1-3.71,3.71,3.71,3.71,0,0,1,3.71-3.71m0-1a4.71,4.71,0,1,0,4.71,4.71,4.72,4.72,0,0,0-4.71-4.71Z" transform="translate(-104.33 -10.38)"/>
+      </g>
+      <text class="cls-6" transform="translate(39.63 874.52)">P</text>
+    </g>
+    <text class="cls-9" transform="translate(16.65 895.54)">DuPont</text>
+    <text class="cls-7" transform="translate(69 859.92)">Tillicum</text>
+    <text class="cls-7" transform="translate(51 877.92)">DuPont</text>
+  </g>
+</svg>

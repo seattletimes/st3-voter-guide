@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "unpaid-generator"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "assets/social.jpg",
+  "sheets": ["1fEgj-QwqPmhFypfJs1kAxYXbJJOXegtnFnYu0cIFACE"],
+  "production": false,
+  "embedded": true
+}

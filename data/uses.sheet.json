@@ -1,0 +1,42 @@
+[
+  {
+    "use": "Link Light Rail Capital",
+    "amount": 31683
+  },
+  {
+    "use": "ST Express Bus Capital",
+    "amount": 586
+  },
+  {
+    "use": "Bus Rapid Transit Capital",
+    "amount": 1812
+  },
+  {
+    "use": "System-wide Activities Capital",
+    "amount": 374
+  },
+  {
+    "use": "Operations & Maintenance",
+    "amount": 7455
+  },
+  {
+    "use": "Debt Service",
+    "amount": 6986
+  },
+  {
+    "use": "State of Good Repair",
+    "amount": 781
+  },
+  {
+    "use": "Contribution to Reserves",
+    "amount": 908
+  },
+  {
+    "use": "Contribution to System-wide",
+    "amount": 1031
+  },
+  {
+    "use": "Sounder Commuter Rail Capital",
+    "amount": 2230
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "layer": "_405_BRT",
+    "head": "I-405/Highway 518 bus-rapid transit",
+    "text": "A 38-mile corridor from Lynnwood to Burien using   I-405 toll lanes. Key stations include a 600-stall Kingsgate park-and-ride garage, a south Renton garage with 700 stalls, and light-rail connections at Tukwila International Boulevard Station near the airport. ",
+    "date": 2024
+  },
+  {
+    "layer": "_522_BRT",
+    "head": "Highway 522 bus-rapid transit",
+    "text": "Route from UW-Bothell to Lake Forest Park ends at Northeast 145th Street, where Seattle commuters would transfer to trains.  Bothell and Kenmore are eager to add apartments, townhomes, dining and walking next to the route. ",
+    "date": 2024
+  },
+  {
+    "layer": "Ballard",
+    "head": "Ballard-South Lake Union light rail",
+    "text": "Ballard trains could reach downtown in 11 minutes, serving 52,000 riders north of Westlake Station. The $2.5 billion project includes new tunnel from Uptown to International District/Chinatown Station.  A community-requested tunnel under Salmon Bay might add $450 million, compared to Ballard drawbridge assumed in ST3 budget.",
+    "date": 2035
+  },
+  {
+    "layer": "West_Seattle",
+    "head": "West Seattle Junction-downtown light-rail",
+    "text": "Three stations to cover same territory as today’s  RapidRide C bus stops, plus a Duwamish River train bridge. Requires tight curves, likely demolition of houses or businesses, and  cumbersome transfer from 120 bus to Link at Delridge. As in Ballard, changing from aerial to tunneled trackway would add cost.",
+    "date": 2030
+  },
+  {
+    "layer": "Everett",
+    "head": "Lynnwood-Everett light-rail",
+    "text": "Elected officials sought Paine Field loop, boosting the Everett-Seattle trip time to a full hour, to serve industrial employers or future passenger flight terminal. Ridership forecast low at  Everett Station, but apartments full of commuters  surround Mariner and Ash Way  stations.",
+    "date": 2036
+  },
+  {
+    "layer": "Redmond",
+    "head": "Overlake-Redmond line",
+    "text": "Quick infusion of ST3 money could build $1 billion segment by 2024, adding 8,000 riders in 2040.   Would serve Eastside tech workers and families in downtown  Redmond, and help people get to sports and concerts at Marymoor Park.",
+    "date": 2024
+  },
+  {
+    "layer": "Kirkland",
+    "head": "South Kirkland light-rail extension ",
+    "text": "A late addition, this site is better positioned for people to catch Highway 520 express buses, rather than make a two-train ride  into Seattle via I-90. Added parking and nearby trail would help Kirklanders reach Bellevue hospitals, retailers and office towers.",
+    "date": 2041
+  },
+  {
+    "layer": "Issaquah",
+    "head": "Issaquah light-rail extension",
+    "text": "Creates access near Factoria, and serves 18,000-student Bellevue College. Central Issaquah plan allows buildings  12 stories high, but it’s unclear whether that car-dependent area will evolve into a dense, transit-based neighborhood.",
+    "date": 2041
+  },
+  {
+    "layer": "South_Federal_Way",
+    "head": "Tacoma-Federal Way light-rail extension ",
+    "text": "Pierce County’s transit-board members opted to reach Seattle-Tacoma International Airport along a regional rail “spine,” rather than build cross-county corridors. Commuters in Federal Way could skip chronic I-5 slowdowns.",
+    "date": 2030
+  },
+  {
+    "layer": "Federal_Way",
+    "head": "Angle Lake to Federal Way Transit Center ",
+    "text": "Includes station near Highline College that would open in 2023 on a shorter segment if ST3 fails. Route serves park-and-ride stations along I-5, at the behest of suburban city governments, instead of following Highway 99.",
+    "date": 2024
+  },
+  {
+    "layer": "DuPont",
+    "head": "Sounder to DuPont",
+    "text": "The $315 million project, to serve up to 1,500 daily passengers, translates to a startling $46 per rider, or $171 per new transit user, a report says.  Tillicum Station would create a congestion-free alternative for military personnel to reach Joint Base Lewis McChord (JBLM).",
+    "date": 2036
+  },
+  {
+    "layer": "Tacoma",
+    "head": "Tacoma streetcar",
+    "text": "Extension from downtown to Hilltop neighborhood and Tacoma Community College would serve 15,500 riders, mostly in exclusive lanes with some mixed areas. Connects with existing line to UW-Tacoma and Tacoma Dome Station.",
+    "date": 2039
+  }
+]
