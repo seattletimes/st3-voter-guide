@@ -2,6 +2,10 @@
 @import "calculator";
 @import "map";
 
+body {
+  font-size: 17px;
+}
+
 .constrained {
   max-width: 800px;
   margin: auto;
@@ -9,5 +13,49 @@
 
 header.intro {
   background: white;
-  padding: 20px;
+  padding: 20px 0;
+  box-shadow: 0 16px 16px fade(black, 10%);
+
+  .splash {
+    width: 100%;
+  }
+
+  .side-by-side {
+    .display-flex;
+
+    @media @mobile {
+      display: block;
+    }
+  }
+}
+
+.text-block {
+  clear: both;
+  background: white;
+  padding: 20px 0;
+
+  &.other-features {
+    box-shadow: 0 -16px 16px fade(black, 10%);
+  }
+}
+
+.source {
+  font-family: @df-sans;
+  font-size: 14px;
+}
+
+.pros-cons {
+  h4 {
+    margin-top: 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .versus {
+    display: flex;
+
+    @media @mobile {
+      display: block;
+    }
+  }
 }

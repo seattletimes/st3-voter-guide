@@ -16,7 +16,7 @@ var salesTax = [
 ];
 
 var salesTaxIncrease = function(income) {
-  // income /= 1000;
+  income /= 1000;
   if (income == 0) return 0;
   for (var i = salesTax.length - 1; i >= 0; i--) {
     var bracket = salesTax[i];

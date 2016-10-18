@@ -11,35 +11,57 @@
 
     <header class="intro">
 
-      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+      <!-- <%= t.include("partials/_ad.html", { type: "banner" }) %> -->
+
+      <img class="splash" src="./assets/lightrail_elevated.jpg">
 
       <div class="constrained">
 
-        <div class="calculator">
-          <label>Property tax: enter your assessed property value for the 2017 tax year</label>
-          <div class="row">
-            <input data-in="property" value="0">
-            <div class="spacer">=</div>
-            <div class="property output"></div>
+        <h1>Your guide to Sound Transit 3: What you'd pay, what you'd get</h1>
+
+        <h2>Here’s the rundown on 11 major projects promised in the Sound Transit 3 measure, using increased property, sales and car-tab tax.</h2>
+
+        <div class="side-by-side">
+          <div class="chatter">
+
+            <p>
+              The $54 billion ballot measure, in urban Snohomish, King and Pierce counties, calls for these increases (which do not include tax for other transit agencies):
+
+            <ul>
+              <li> Property tax, $25 a year per $100,000 of assessed value.
+              <li> Sales tax, increase of 50 cents per $100 purchase.
+              <li> Car-tab tax, a yearly increase of $80 per $10,000 vehicle value.
+            </ul>
+
+            <p> A median household would pay $326 next year per household in new tax (or $169 per adult), plus $303 in existing Sound Transit taxes that voters passed in 1996 and 2008. Actual costs vary by income and lifestyle, so try this ST3 tax calculator to find your own tax increase.
           </div>
 
-          <label>Sales tax: enter your household income</label>
-          <div class="row">
-            <input data-in="sales" value="0">
-            <div class="spacer">=</div>
-            <div class="sales output"></div>
-          </div>
+          <div class="calculator">
+            <label>Property tax: enter your assessed property value for the 2017 tax year</label>
+            <div class="row">
+              <input data-in="property" value="$750,000">
+              <div class="spacer">=</div>
+              <div class="property output"></div>
+            </div>
 
-          <label>Car tab: enter the "RTA tax" that you paid on your most recent car-tab bill (<a href="https://fortress.wa.gov/dol/tabs/FeeCalcVehicle.aspx">available here</a>)</label>
-          <div class="row">
-            <input data-in="car" value="0">
-            <div class="spacer">=</div>
-            <div class="car output"></div>
-          </div>
+            <label>Sales tax: enter your household income</label>
+            <div class="row">
+              <input data-in="sales" value="$100,000">
+              <div class="spacer">=</div>
+              <div class="sales output"></div>
+            </div>
 
-          <div class="final row">
-            <div>Total increase</div>
-            <div class="total output"></div>
+            <label>Car tab: enter the "RTA tax" that you paid on your most recent car-tab bill (<a href="https://fortress.wa.gov/dol/tabs/FeeCalcVehicle.aspx">available here</a>)</label>
+            <div class="row">
+              <input data-in="car" value="$75">
+              <div class="spacer">=</div>
+              <div class="car output"></div>
+            </div>
+
+            <div class="final row">
+              <div>Total increase</div>
+              <div class="total output"></div>
+            </div>
           </div>
         </div>
 
@@ -47,11 +69,11 @@
 
     </header>
 
-    <main class="scroll-content">
+    <div class="scroll-content">
       <div class="backdrop">
         <%= t.include("assets/ST3.svg") %>
       </div>
-      <div class="first layer" data-layer="key">
+      <div class="first layer" data-layer="Existing">
         <h2>Where the money goes</h2>
         <p>ST3 can be grouped into 12 "projects" throughout the system, ranging from light rail extensions to bus-rapid transit lines. The map on the left shows the complete picture &mdash; scroll to see each project in detail.
       </div>
@@ -59,10 +81,68 @@
       <div class="layer" data-layer="<%= stage.layer %>">
         <h2><%= stage.head %></h2>
         <p><%= stage.text %></p>
-        <p>Estimated completion date: <%= stage.date %>
+        <p>Planned completion date: <b><%= stage.date %></b>
       </div>
       <% }) %>
-    </main>
+    </div>
+
+    <div class="text-block other-features">
+      <div class="constrained">
+
+        Besides rail and bus extensions, the plan proposes:
+
+        <ul>
+          <li> <b>Housing</b>
+            A $20 million fund for low-interest revolving loans to be used by housing developers who set low rents.  Four-fifths of surplus  land must be used for affordable units after Sound Transit construction teams are finished using it.  Another $30 million is earmarked to study or plan dense “transit-oriented development.”
+          <li> <b>Payments to the state</b>
+            A 2015 law requires $518 million from  ST3 tax revenues be paid to the state general fund for education or social services.
+          <li> <b>Fleet replacement fund</b>
+            An estimated $781 million would be set aside through 2041  for to replace trains, tracks and station equipment — to prevent breakdowns like those in Washington, D.C.
+          <li> <b>Near-term bus projects</b>
+            To keep ST Express, Community Transit, and RapidRide moving,   bus lanes would be added, including on highway shoulders. Also promised are more service hours, a Sammamish park-and-ride, and money for  a Madison Street bus corridor in Seattle.
+          <li> <b>Planning for ST4</b>
+            A total $187 million to plan a fourth round of projects and study future corridors, including White Center, Burien, Renton, north Everett, Orting, Tacoma Mall, a crosstown Ballard-UW line, and north Lake Washington.
+        </ul>
+
+        <div class="source">Source: Sound Transit 3 guide, Appendix A</div>
+      </div>
+    </div>
+
+    <div class="text-block pros-cons">
+      <div class="constrained">
+        <h3>Sound Transit Proposition 1, pro and con</h3>
+
+        <div class="versus">
+          <div class="pro view">
+            <h4>In favor</h4>
+
+            <ul>
+              <li>The region needs more transportation capacity, for today’s trips and 800,000 people expcted to move here by 2040.
+              <li>Taxpayers in places such as   Everett, Ballard, West Seattle, Federal Way,   Kirkland and Issaquah have been paying for light-rail elsewhere for years.  It’s their turn.
+              <li> Frequent four-car trains can move 16,000 people  an hour, while a general highway lane carries 2,000 vehicles — and there’s no room to expand freeways.
+              <li>Light-rail “lets you escape congestion, reduces climate pollution, and improves access and affordability for all.”
+              <li>Projects would create tens of thousands of skilled construction jobs, for a quarter-century.
+            </ul>
+          </div>
+
+          <div class="con view">
+            <h4>Against</h4>
+
+            <ul>
+              <li>Measure would triple Sound Transit’s car-tab tax — bringing the total for ST3 plus earlier packages  to $1,000 a year for “middle-class families.”
+              <li>ST3 wouldn’t reduce  congestion. Rail  serves a fraction of regional trips, and “just moves people who already ride buses onto trains.”
+              <li>Bus-rapid transit lanes could  be established sooner at far less cost.
+              <li>For the first time, Sound Transit seeks a property tax, which could make it tougher for the Legislature  to increase  education funding.
+              <li>Autonomous cars, clean electric vehicles, and ride-service companies such as Uber and Lyft would make light rail obsolete, before the rail extensions are finished.
+            </ul>
+          </div>
+        </div>
+
+        <div class="source">Sources: King County Voters Guide, Seattle Times archives</div>
+      </div>
+    </div>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

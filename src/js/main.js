@@ -9,7 +9,7 @@ var debounce = require("./lib/debounce");
 var Camera = require("savage-camera");
 var savage = require("savage-query");
 
-var keyStage = document.querySelector("main.scroll-content");
+var keyStage = document.querySelector(".scroll-content");
 var map = document.querySelector(".backdrop svg");
 var camera = new Camera(map);
 var stages = $(".layer").reverse();
@@ -26,7 +26,11 @@ var onScroll = function() {
       if (layerID == current) return;
       var layer = document.querySelector("#" + layerID);
       if (!layer) return;
-      savage(map).addClass("zoomed");
+      if (layerID != "Existing") {
+        savage(map).addClass("zoomed");
+      } else {
+        savage(map).removeClass("zoomed");
+      }
       var active = document.querySelector(".activated");
       if (active) savage(active).removeClass("activated");
       savage(layer).addClass("activated");
@@ -35,8 +39,6 @@ var onScroll = function() {
       return;
     }
   }
-  savage(map).removeClass("zoomed");
-  camera.zoomTo(existing, 50, 500);
 }
 
 window.addEventListener("scroll", debounce(onScroll));
