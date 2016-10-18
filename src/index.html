@@ -76,6 +76,14 @@
       <div class="first layer" data-layer="Existing">
         <h2>Where the money goes</h2>
         <p>ST3 can be grouped into 12 "projects" throughout the system, ranging from light rail extensions to bus-rapid transit lines. The map on the left shows the complete picture &mdash; scroll to see each project in detail.
+
+        <ul class="key">
+          <li> Solid lines represent existing infrastructure, and dotted lines are proposed for ST3
+          <li> <i class="new station icon"></i> New station
+          <li> <i class="bus station icon"></i> Bus-rapid transit station
+          <li> <i class="improved station icon"></i> Station improvements
+          <li> <i class="station parking icon"></i> Added parking
+        </ul>
       </div>
       <% json.stages.forEach(function(stage) { %>
       <div class="layer" data-layer="<%= stage.layer %>">
