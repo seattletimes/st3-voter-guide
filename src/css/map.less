@@ -46,10 +46,27 @@
   .backdrop {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-600px);
+    transform: translateX(-600px);
+    width: 800px;
     height: 100%;
     z-index: -1;
+
+    @media (max-width: 1100px) {
+      left: 0;
+      -webkit-transform: none;
+      transform: none;
+      width: 80%;
+    }
+
+    @media @tablet {
+      width: 66%;
+    }
+
+    @media @mobile {
+      width: 100%;
+    }
 
     svg {
       position: absolute;
@@ -95,6 +112,11 @@
     padding: 16px;
     font-family: @df-sans;
     font-size: 16px;
+
+    @media @mobile {
+      width: auto;
+      margin: 0 20px 500px;
+    }
 
     &.first {
       margin-top: 400px;

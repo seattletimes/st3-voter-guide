@@ -35,7 +35,7 @@ var onScroll = function() {
       if (active) savage(active).removeClass("activated");
       savage(layer).addClass("activated");
       current = layerID;
-      camera.zoomTo(layer, 200, 500);
+      camera.zoomTo(layer, window.innerWidth > 1000 ? 200 : 50, 500);
       return;
     }
   }
