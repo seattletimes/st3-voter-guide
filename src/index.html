@@ -19,7 +19,17 @@
 
         <h1>Your guide to Sound Transit 3: What you'd pay, what you'd get</h1>
 
-        <h2>Here’s the rundown on 12 major projects promised in the Sound Transit 3 measure, using increased property, sales and car-tab tax.</h2>
+        <h2>Here’s the rundown on 12 major projects promised in the Sound Transit 3 measure</h2>
+
+        <div class="credits">
+          By Mike Lindblom, Thomas Wilburn, and Kelly Shea
+        </div>
+
+        <nav class="jump">
+          <a href="#projects">Map of projects</a> |
+          <a href="#other-features">Other features</a> |
+          <a href="#pros-cons">Pros and Cons</a>
+        </nav>
 
         <div class="side-by-side">
           <div class="chatter">
@@ -36,22 +46,25 @@
             <p> A median household would pay $326 next year per household in new tax (or $169 per adult), plus $303 in existing Sound Transit taxes that voters passed in 1996 and 2008. Actual costs vary by income and lifestyle, so try this ST3 tax calculator to find your own tax increase.
           </div>
 
-          <div class="calculator">
-            <label>Property tax: enter your assessed property value for the 2017 tax year</label>
+          <div class="calculator" id="calculator">
+            <h2>Property tax</h2>
+            <label>Enter your assessed property value for the 2017 tax year</label>
             <div class="row">
               <input data-in="property" value="$750,000">
               <div class="spacer">=</div>
               <div class="property output"></div>
             </div>
 
-            <label>Sales tax: enter your household income</label>
+            <h2>Sales tax</h2>
+            <label>Enter your household income</label>
             <div class="row">
               <input data-in="sales" value="$100,000">
               <div class="spacer">=</div>
               <div class="sales output"></div>
             </div>
 
-            <label>Car tab: enter the "RTA tax" that you paid on your most recent car-tab bill (<a href="https://fortress.wa.gov/dol/tabs/FeeCalcVehicle.aspx">available here</a>)</label>
+            <h2>Car tab</h2>
+            <label>Enter the "RTA tax" from your most recent car-tab bill (<a href="https://fortress.wa.gov/dol/tabs/FeeCalcVehicle.aspx">available here</a>)</label>
             <div class="row">
               <input data-in="car" value="$75">
               <div class="spacer">=</div>
@@ -69,7 +82,7 @@
 
     </header>
 
-    <div class="scroll-content">
+    <section class="scroll-content" id="projects">
       <div class="backdrop">
         <%= t.include("assets/ST3.svg") %>
       </div>
@@ -92,9 +105,9 @@
         <p>Planned completion date: <b><%= stage.date %></b>
       </div>
       <% }) %>
-    </div>
+    </section>
 
-    <div class="text-block other-features">
+    <section class="text-block other-features" id="other-features">
       <div class="constrained">
 
         Besides rail and bus extensions, the plan proposes:
@@ -114,9 +127,9 @@
 
         <div class="source">Source: Sound Transit 3 guide, Appendix A</div>
       </div>
-    </div>
+    </section>
 
-    <div class="text-block pros-cons">
+    <section class="text-block pros-cons" id="pros-cons">
       <div class="constrained">
         <h3>Sound Transit Proposition 1, pro and con</h3>
 
@@ -148,7 +161,7 @@
 
         <div class="source">Sources: King County Voters Guide, Seattle Times archives</div>
       </div>
-    </div>
+    </section>
 
     <%= t.include("partials/_navBottom.html") %>
 
