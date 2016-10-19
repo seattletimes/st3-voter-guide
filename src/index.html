@@ -129,6 +129,64 @@
       </div>
     </section>
 
+    <section class="text-block funding-bars" id="funding">
+      <div class="constrained">
+        <%
+var cash = function(n) {
+  if (n > 1000) {
+    return (n / 1000).toFixed(2) + "B";
+  }
+  return n + "M";
+}
+        %>
+        <h3>Where the money comes from</h3>
+
+        <h4>Total funding: $53.85 billion
+        <div class="stacked-bar">
+          <% json.sources.forEach(function(row, i) { %>
+          <div class="bar index-<%= i %>" style="width: <%= row.percentage %>"></div>
+          <% }) %>
+        </div>
+
+        <h4>Breakdown:</h4>
+        <div class="breakout">
+          <% json.sources.forEach(function(row, i) { %>
+          <div class="item">
+            <div class="bar index-<%= i %>" style="width: <%= row.percentage %>"></div>
+            <div class="description">
+              <span class="money">
+                $<%= cash(row.amount) %>
+              </span> (<span class="percent"><%= row.percentage %></span>) - <%= row.source %>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+
+        <h3>Where the money goes</h3>
+
+        <h4>Total spending: $53.85 billion
+        <div class="stacked-bar">
+          <% json.uses.forEach(function(row, i) { %>
+          <div class="bar index-<%= i %>" style="width: <%= row.percentage %>"></div>
+          <% }) %>
+        </div>
+
+        <h4>Breakdown:</h4>
+        <div class="breakout">
+          <% json.uses.forEach(function(row, i) { %>
+          <div class="item">
+            <div class="bar index-<%= i %>" style="width: <%= row.percentage %>"></div>
+            <div class="description">
+              <span class="money">
+                $<%= cash(row.amount) %>
+              </span> (<span class="percent"><%= row.percentage %></span>) - <%= row.use %>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
     <section class="text-block pros-cons" id="pros-cons">
       <div class="constrained">
         <h3>Sound Transit Proposition 1, pro and con</h3>

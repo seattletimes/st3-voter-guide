@@ -1,0 +1,68 @@
+.funding-bars {
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .bar {
+    background: black;
+    height: 20px;
+  }
+
+  @index-0: desaturate(@transit-green, 50%);
+  @index-1: desaturate(@transit-blue, 30%);
+  @index-2: desaturate(@transit-yellow, 30%);
+  @index-3: desaturate(@transit-orange, 30%);
+  @index-4: desaturate(@transit-purple, 30%);
+  @index-5: darken(desaturate(@transit-green, 50%), 30%);
+  @index-6: darken(desaturate(@transit-blue, 30%), 30%);
+  @index-7: darken(desaturate(@transit-yellow, 30%), 30%);
+  @index-8: darken(desaturate(@transit-orange, 30%), 30%);
+  @index-9: darken(desaturate(@transit-purple, 30%), 30%);
+
+  .makePattern(@index, @color) {
+    .bar.index-@{index} {
+      background: @color;
+      background-image: repeating-linear-gradient(-60deg,
+        transparent 0px, transparent 2px, white 2px, white 3px, transparent 3px);
+    }
+  }
+
+  .makePattern(0, @index-0);
+  .makePattern(1, @index-1);
+  .makePattern(2, @index-2);
+  .makePattern(3, @index-3);
+  .makePattern(4, @index-4);
+  .makePattern(5, @index-5);
+  .makePattern(6, @index-6);
+  .makePattern(7, @index-7);
+  .makePattern(8, @index-8);
+  .makePattern(9, @index-9);
+
+
+  .stacked-bar {
+    overflow: hidden;
+
+    .bar {
+      float: left;
+    }
+  }
+
+  .breakout {
+    font-family: @df-sans;
+    font-size: 14px;
+
+    .item {
+      padding: 0 0 8px 0;
+    }
+
+    .bar {
+      height: 14px;
+    }
+
+    .money {
+      font-weight: bold;
+    }
+  }
+
+}

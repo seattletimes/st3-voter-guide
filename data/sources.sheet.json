@@ -1,26 +1,32 @@
 [
   {
     "source": "ST3 Tax Revenues",
-    "amount": 27710
-  },
-  {
-    "source": "ST3 Grants - Federal",
-    "amount": 4669
-  },
-  {
-    "source": "Sound Move + ST2 Surplus",
-    "amount": 8621
+    "amount": 27710,
+    "percentage": "51.46%"
   },
   {
     "source": "Bond Proceeds",
-    "amount": 10999
+    "amount": 10999,
+    "percentage": "20.43%"
+  },
+  {
+    "source": "Sound Move + ST2 Surplus",
+    "amount": 8621,
+    "percentage": "16.01%"
+  },
+  {
+    "source": "ST3 Grants - Federal",
+    "amount": 4669,
+    "percentage": "8.67%"
   },
   {
     "source": "Fares & Other Revenues",
-    "amount": 1514
+    "amount": 1514,
+    "percentage": "2.81%"
   },
   {
     "source": "Interest Earnings",
-    "amount": 333
+    "amount": 333,
+    "percentage": "0.62%"
   }
 ]
