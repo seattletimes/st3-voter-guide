@@ -87,12 +87,17 @@
 
     </header>
 
-    <section class="scroll-content" id="projects">
+    <section class="text-block project-head" id="projects">
+      <div class="constrained">
+        <h3>The ST3 roadmap</h3>
+      </div>
+    </section>
+
+    <section class="scroll-content">
       <div class="backdrop">
         <%= t.include("assets/ST3.svg") %>
       </div>
       <div class="first layer" data-layer="Existing">
-        <h2>Where the money goes</h2>
         <p>ST3 can be grouped into 12 "projects" throughout the system, ranging from light rail extensions to bus-rapid transit lines. The map on the left shows the complete picture &mdash; scroll to see each project in detail.
 
         <ul class="key">
@@ -144,7 +149,7 @@ var cash = function(n) {
   return n + "M";
 }
         %>
-        <h3>Where the money comes from</h3>
+        <h3 class="purple">Where the money comes from</h3>
 
         <h4>Total funding: $53.85 billion
         <div class="stacked-bar">
@@ -167,7 +172,7 @@ var cash = function(n) {
           <% }) %>
         </div>
 
-        <h3>Where the money goes</h3>
+        <h3 class="orange">Where the money goes</h3>
 
         <h4>Total spending: $53.85 billion
         <div class="stacked-bar">
@@ -194,7 +199,7 @@ var cash = function(n) {
 
     <section class="text-block pros-cons" id="pros-cons">
       <div class="constrained">
-        <h3>Sound Transit Proposition 1, pro and con</h3>
+        <h3 class="blue">Sound Transit Proposition 1, pro and con</h3>
 
         <div class="versus">
           <div class="pro view">
