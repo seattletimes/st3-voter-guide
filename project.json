@@ -6,16 +6,16 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2016/st3-guide"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Your guide to Sound Transit 3: What you'd pay, what you'd get",
+  "description": "Here’s the rundown on 12 major projects promised in the Sound Transit 3 measure",
+  "url": "http://projects.seattletimes.com/2016/st3-guide/",
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["1fEgj-QwqPmhFypfJs1kAxYXbJJOXegtnFnYu0cIFACE"],
   "production": false,
-  "embedded": true
+  "embedded": false
 }
