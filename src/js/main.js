@@ -41,5 +41,5 @@ var onScroll = function() {
   }
 }
 
-window.addEventListener("scroll", debounce(onScroll));
+window.addEventListener("scroll", debounce(onScroll, 500));
 onScroll();

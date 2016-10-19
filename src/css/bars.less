@@ -14,30 +14,40 @@
   @index-2: desaturate(@transit-yellow, 30%);
   @index-3: desaturate(@transit-orange, 30%);
   @index-4: desaturate(@transit-purple, 30%);
-  @index-5: darken(desaturate(@transit-green, 50%), 30%);
-  @index-6: darken(desaturate(@transit-blue, 30%), 30%);
-  @index-7: darken(desaturate(@transit-yellow, 30%), 30%);
-  @index-8: darken(desaturate(@transit-orange, 30%), 30%);
-  @index-9: darken(desaturate(@transit-purple, 30%), 30%);
+  @index-5: @df-dark-gray;
+  @index-6: lighten(desaturate(@transit-green, 50%), 30%);
+  @index-7: lighten(desaturate(@transit-blue, 30%), 30%);
+  @index-8: lighten(desaturate(@transit-yellow, 30%), 30%);
+  @index-9: lighten(desaturate(@transit-orange, 30%), 30%);
 
-  .makePattern(@index, @color) {
+  .stripey(@index, @color, @deg: -60deg) {
     .bar.index-@{index} {
       background: @color;
-      background-image: repeating-linear-gradient(-60deg,
+      background-image: repeating-linear-gradient(@deg,
         transparent 0px, transparent 2px, white 2px, white 3px, transparent 3px);
     }
   }
 
-  .makePattern(0, @index-0);
-  .makePattern(1, @index-1);
-  .makePattern(2, @index-2);
-  .makePattern(3, @index-3);
-  .makePattern(4, @index-4);
-  .makePattern(5, @index-5);
-  .makePattern(6, @index-6);
-  .makePattern(7, @index-7);
-  .makePattern(8, @index-8);
-  .makePattern(9, @index-9);
+  .polka(@index, @color) {
+    .bar.index-@{index} {
+      background: @color;
+      background-image: radial-gradient(white 1px, transparent 2px),
+        radial-gradient(white 1px, transparent 2px);
+      background-position: 0 0, 5px 5px;
+      background-size: 10px 10px;
+    }
+  }
+
+  .stripey(0, @index-0);
+  .stripey(1, @index-1);
+  .stripey(2, @index-2);
+  .stripey(3, @index-3);
+  .stripey(4, @index-4);
+  .stripey(5, @index-5);
+  .stripey(6, @index-6, 60deg);
+  .stripey(7, @index-7, 60deg);
+  .stripey(8, @index-8, 60deg);
+  .stripey(9, @index-9, 60deg);
 
 
   .stacked-bar {

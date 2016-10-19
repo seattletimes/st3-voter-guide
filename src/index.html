@@ -22,12 +22,17 @@
         <h2>Here’s the rundown on 12 major projects promised in the Sound Transit 3 measure</h2>
 
         <div class="credits">
-          By Mike Lindblom, Thomas Wilburn, and Kelly Shea
+          By Mike Lindblom, Thomas Wilburn and Kelly Shea
+        </div>
+
+        <div class="date">
+          Originally published October 21, 2016
         </div>
 
         <nav class="jump">
           <a href="#projects">Map of projects</a> |
           <a href="#other-features">Other features</a> |
+          <a href="#funding">Funding breakdown</a> |
           <a href="#pros-cons">Pros and Cons</a>
         </nav>
 
@@ -219,6 +224,10 @@ var cash = function(n) {
 
         <div class="source">Sources: King County Voters Guide, Seattle Times archives</div>
       </div>
+    </section>
+
+    <section class="text-block">
+      <%= t.include("partials/_dontMiss.html", { data: [{}, {}, {}, {}] }) %>
     </section>
 
     <%= t.include("partials/_navBottom.html") %>

@@ -13,6 +13,10 @@ body {
   font-size: 17px;
 }
 
+ul {
+  list-style-type: circle;
+}
+
 .constrained {
   max-width: 800px;
   margin: auto;
@@ -35,6 +39,12 @@ header.intro {
 
   h2 {
     font-size: 20px;
+  }
+
+  .credits, .date {
+    font-family: @df-sans;
+    color: @df-dark-gray;
+    font-size: 15px;
   }
 
   .jump {
@@ -72,6 +82,16 @@ header.intro {
   font-size: 14px;
 }
 
+.other-features {
+  b {
+    display: block;
+  }
+
+  ul {
+    font-family: @df-sans;
+  }
+}
+
 .pros-cons {
   h4 {
     margin-top: 0;
@@ -81,6 +101,11 @@ header.intro {
 
   .versus {
     display: flex;
+
+    .pro {
+      border-right: 1px solid @df-light-gray;
+      padding-right: 16px;
+    }
 
     @media @mobile {
       display: block;
