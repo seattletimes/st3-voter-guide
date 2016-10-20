@@ -1,0 +1,61 @@
+@keyframes left-to-right {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(800%);
+  }
+}
+
+@keyframes right-to-left {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-500%);
+  }
+}
+
+.splash.animation {
+  position: relative;
+  overflow: hidden;
+
+  .sprite {
+    position: absolute;
+
+    &.train {
+      transform: translateX(-100%);
+      top: 5%;
+      animation: left-to-right linear 8s infinite;
+      animation-delay: 1s;
+      position: absolute;
+
+      .car-b {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: translateX(-98%);
+      }
+
+      .car-c {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        transform: translateX(-196%);
+      }
+    }
+
+    &.bus {
+      transform: translateX(100%);
+      top: 20%;
+      right: 0;
+      animation: right-to-left linear 7s infinite;
+      animation-delay: 0s;
+      position: absolute;
+    }
+  }
+}
