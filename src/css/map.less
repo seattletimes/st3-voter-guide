@@ -10,19 +10,29 @@
   }
 
   .station.icon {
-    @size: 17px;
+    @size: 14px;
     width: @size;
     height: @size;
     line-height: @size - 2px;
     display: inline-block;
     border: 1px solid black;
     border-radius: 100%;
-    vertical-align: text-top;
+    vertical-align: middle;
     text-align: center;
     font-style: normal;
     font-size: @size - 4px;
     font-weight: bold;
     margin-right: 8px;
+
+    &.existing {
+      background: black;
+    }
+
+    &.approved {
+      border-radius: 0;
+      height: @size / 2;
+      background: black;
+    }
 
     &.bus {
       border-radius: 0;
@@ -131,7 +141,7 @@
 
     &[data-layer="_405_BRT"],
     &[data-layer="_522_BRT"] {
-      border-left: @border-width dashed #42469c;
+      border-left: @border-width dashed @transit-purple;
     }
 
     &[data-layer="Ballard"],
@@ -143,11 +153,16 @@
     &[data-layer="South_Federal_Way"],
     &[data-layer="Federal_Way"],
     &[data-layer="Tacoma"] {
-      border-left: @border-width dashed #e76525;
+      border-left: @border-width dashed @transit-orange;
     }
 
     &[data-layer="DuPont"] {
-      border-left: @border-width dashed #00a048;
+      border-left: @border-width dashed @transit-green;
+    }
+
+
+    &[data-layer="Sounder_South"] {
+      border-left: @border-width solid @transit-blue;
     }
   }
 }
