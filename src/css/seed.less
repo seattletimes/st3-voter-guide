@@ -128,6 +128,11 @@ header.intro {
     .pro {
       border-right: 1px solid @df-light-gray;
       padding-right: 16px;
+
+      @media @mobile {
+        border-right: none;
+        padding-right: 0;
+      }
     }
 
     @media @mobile {
