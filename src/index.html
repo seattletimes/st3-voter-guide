@@ -10,7 +10,7 @@
 
     <header class="intro">
 
-      <!-- <%= t.include("partials/_ad.html", { type: "banner" }) %> -->
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
       <div class="splash animation">
         <img src="./assets/animation/background.jpg" class="background">
@@ -247,9 +247,11 @@ var cash = function(n) {
       </div>
     </section>
 
+<!--
     <section class="text-block">
       <%= t.include("partials/_dontMiss.html", { data: [{}, {}, {}, {}] }) %>
     </section>
+-->
 
     <%= t.include("partials/_navBottom.html") %>
 

@@ -14,8 +14,8 @@
   "url": "http://projects.seattletimes.com/2016/st3-guide/",
   "slug": "",
   "tags": [],
-  "image": "assets/social.jpg",
+  "image": "assets/lightrail_elevated.jpg",
   "sheets": ["1fEgj-QwqPmhFypfJs1kAxYXbJJOXegtnFnYu0cIFACE"],
-  "production": false,
+  "production": true,
   "embedded": false
 }
