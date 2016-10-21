@@ -9,11 +9,19 @@
     display: block;
   }
 
+  @size: 16px;
+
+  b.icon {
+    font-size: 20px;
+    margin-right: 8px;
+    display: inline-block;
+    text-align: center;
+    width: @size;
+  }
+
   .station.icon {
-    @size: 18px;
     width: @size;
     height: @size;
-    line-height: @size - 3px;
     display: inline-block;
     border: 2px solid black;
     border-radius: 100%;
