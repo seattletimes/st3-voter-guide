@@ -1,51 +1,51 @@
 [
   {
-    "use": "Link Light Rail Capital",
+    "use": "Train, track, station, tunnel construction",
     "amount": 31683,
     "percentage": "58.84%"
   },
   {
-    "use": "Operations & Maintenance",
+    "use": "Operations and maintenance",
     "amount": 7455,
     "percentage": "13.85%"
   },
   {
-    "use": "Debt Service",
+    "use": "Bond repayment",
     "amount": 6986,
     "percentage": "12.97%"
   },
   {
-    "use": "Sounder Commuter Rail Capital",
+    "use": "Sounder commuter rail capital",
     "amount": 2230,
     "percentage": "4.14%"
   },
   {
-    "use": "Bus Rapid Transit Capital",
+    "use": "Bus Rapid Transit capital",
     "amount": 1812,
     "percentage": "3.37%"
   },
   {
-    "use": "Contribution to System-wide",
+    "use": "Contribution to system-wide",
     "amount": 1031,
     "percentage": "1.91%"
   },
   {
-    "use": "Contribution to Reserves",
+    "use": "Contribution to reserves",
     "amount": 908,
     "percentage": "1.69%"
   },
   {
-    "use": "State of Good Repair",
+    "use": "Fleet replacement",
     "amount": 781,
     "percentage": "1.45%"
   },
   {
-    "use": "ST Express Bus Capital",
+    "use": "ST Express bus capital",
     "amount": 586,
     "percentage": "1.09%"
   },
   {
-    "use": "System-wide Activities Capital",
+    "use": "System-wide activities capital",
     "amount": 374,
     "percentage": "0.69%"
   }

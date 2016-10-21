@@ -10,25 +10,25 @@
   }
 
   .station.icon {
-    @size: 14px;
+    @size: 18px;
     width: @size;
     height: @size;
-    line-height: @size - 2px;
+    line-height: @size - 3px;
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 100%;
     vertical-align: middle;
     text-align: center;
     font-style: normal;
-    font-size: @size - 4px;
+    font-size: @size - 6px;
     font-weight: bold;
     margin-right: 8px;
 
-    &.existing {
+    &.approved {
       background: black;
     }
 
-    &.approved {
+    &.existing {
       border-radius: 0;
       height: @size / 2;
       background: black;
