@@ -42,7 +42,7 @@
         <nav class="jump">
           <a href="#projects">Map of projects</a> |
           <a href="#other-features">Other features</a> |
-          <a href="#funding">Funding breakdown</a> |
+          <a href="#funding">Funding</a> |
           <a href="#pros-cons">Pros and Cons</a>
         </nav>
 
@@ -108,23 +108,25 @@
         <%= t.include("assets/ST3.svg") %>
       </div>
       <div class="first layer" data-layer="Existing">
-        <p>ST3 can be grouped into 12 "projects" throughout the system, ranging from light rail extensions to bus-rapid transit lines. The map on the left shows the complete picture &mdash; scroll to see each project in detail.
+        <p>ST3 can be grouped into 12 "projects" throughout the system, ranging from light rail extensions to bus-rapid transit lines. The map shows the complete picture &mdash; scroll to see each project in detail.
 
         <ul class="key">
           <li> Solid lines represent existing infrastructure, and dotted lines are proposed for ST3
-          <li> <i class="existing station icon"></i> Existing rail station
+          <li> <i class="existing station icon"></i> Existing rail station*
           <li> <i class="approved station icon"></i> Approved station (ST2)
           <li> <i class="new station icon"></i> Proposed station (ST3)
           <li> <i class="bus station icon"></i> Bus rapid transit
           <li> <i class="improved station icon"></i> Station improvements
           <li> <i class="station parking icon"></i> Added parking
         </ul>
+
+        * Not all stations are shown.
       </div>
       <% json.stages.forEach(function(stage) { %>
       <div class="layer" data-layer="<%= stage.layer %>">
         <h2><%= stage.head %></h2>
         <p><%= stage.text %></p>
-        <p>Planned completion date: <b><%= stage.date %></b>
+        <p>Completion: <b><%= stage.date %></b>
       </div>
       <% }) %>
     </section>
@@ -174,7 +176,7 @@ var cash = function(n) {
           <% }) %>
         </div>
 
-        <h4>Breakdown:</h4>
+        <h4></h4>
         <div class="breakout">
           <% json.sources.forEach(function(row, i) { %>
           <div class="item">
@@ -197,7 +199,7 @@ var cash = function(n) {
           <% }) %>
         </div>
 
-        <h4>Breakdown:</h4>
+        <h4></h4>
         <div class="breakout">
           <% json.uses.forEach(function(row, i) { %>
           <div class="item">
@@ -215,6 +217,8 @@ var cash = function(n) {
 
     <section class="text-block pros-cons" id="pros-cons">
       <div class="constrained">
+        <h3>Frequent campaign arguments</h3>
+
         <div class="versus">
           <div class="pro view">
             <h4>The Pros</h4>
@@ -245,11 +249,25 @@ var cash = function(n) {
       </div>
     </section>
 
-<!--
     <section class="text-block">
-      <%= t.include("partials/_dontMiss.html", { data: [{}, {}, {}, {}] }) %>
+      <%= t.include("partials/_dontMiss.html", { data: [{
+        head: "Light-rail stations could open years earlier under new Sound Transit plan",
+        link: "http://www.seattletimes.com/seattle-news/transportation/light-rail-stations-could-open-sooner-under-new-sound-transit-plan/",
+        image: "teasers/sooner.jpg"
+      }, {
+        head: "25-year wait for Sound Transit to finish light rail? Here’s why",
+        link: "http://www.seattletimes.com/seattle-news/transportation/25-year-wait-for-sound-transit-to-finish-light-rail-heres-why/",
+        image: "teasers/tunneler.jpg"
+      }, {
+        head: "Sound Transit 3 taxes: How much you’d pay and for how long",
+        link: "http://www.seattletimes.com/seattle-news/transportation/breaking-down-the-54-billion-sound-transit-3-initiative/",
+        image: "teasers/taxes.jpg"
+      }, {
+        head: "Ads for Sound Transit 3 pack in light-rail riders pretty tight",
+        link: "http://www.seattletimes.com/seattle-news/transportation/ads-for-sound-transit-3-pack-in-light-rail-riders-pretty-tight/",
+        image: "teasers/ads.jpg"
+      }] }) %>
     </section>
--->
 
     <%= t.include("partials/_navBottom.html") %>
 

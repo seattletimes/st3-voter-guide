@@ -15,22 +15,22 @@
     "percentage": "12.97%"
   },
   {
-    "use": "Sounder commuter rail capital",
+    "use": "Sounder commuter-rail capital",
     "amount": 2230,
     "percentage": "4.14%"
   },
   {
-    "use": "Bus Rapid Transit capital",
+    "use": "Bus rapid transit capital",
     "amount": 1812,
     "percentage": "3.37%"
   },
   {
-    "use": "Contribution to system-wide",
+    "use": "System-wide programs and state fees",
     "amount": 1031,
     "percentage": "1.91%"
   },
   {
-    "use": "Contribution to reserves",
+    "use": "Financial reserves",
     "amount": 908,
     "percentage": "1.69%"
   },
@@ -40,12 +40,12 @@
     "percentage": "1.45%"
   },
   {
-    "use": "ST Express bus capital",
+    "use": "ST Express bus improvements",
     "amount": 586,
     "percentage": "1.09%"
   },
   {
-    "use": "System-wide activities capital",
+    "use": "System-wide planning, equipment",
     "amount": 374,
     "percentage": "0.69%"
   }

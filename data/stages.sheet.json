@@ -2,13 +2,13 @@
   {
     "layer": "_405_BRT",
     "head": "I-405/Hwy. 518 bus rapid transit",
-    "text": "A 38-mile corridor from Lynnwood to Burien using I-405 toll lanes. The Kingsgate stop would get a 600-stall park-and-ride garage; south Renton, a 700-stall garage; on the south end, passengers would transfer to light rail at Tukwila International Boulevard Station.",
+    "text": "A 38-mile corridor from Lynnwood to Burien using I-405 toll lanes. The Kingsgate stop would get a 600-stall park-and-ride garage; south Renton, a 700-stall garage. On the south end, passengers could transfer to light rail at Tukwila International Boulevard Station for airport access.",
     "date": 2024
   },
   {
     "layer": "_522_BRT",
     "head": "Hwy. 522 bus rapid transit",
-    "text": "Route from UW-Bothell through Lake Forest Park ends at Northeast 145th Street, where commuters would transfer to light rail. Bothell and Kenmore are eager to add apartments, townhomes, dining and walking next to the route.",
+    "text": "Route from UW-Bothell through Lake Forest Park ends at Northeast 145th Street, where commuters would transfer to light rail. Bothell and Kenmore are eager to add apartments, townhomes, dining and sidewalks next to the stops.",
     "date": 2024
   },
   {
@@ -20,25 +20,25 @@
   {
     "layer": "West_Seattle",
     "head": "West Seattle-downtown light rail",
-    "text": "Train route would replace RapidRide C bus stops and include a Duwamish River train bridge. Requires tight curves, likely demolition of houses or businesses, and bus-rail transfers at Delridge for 10,000 riders on the 120 bus. As in Ballard, a post-election switch from an elevated track to a tunnel would drive up the price.",
+    "text": "Route would replace RapidRide C bus stops and include a Duwamish River train bridge. Requires tight curves, likely demolition of houses or businesses, and bus-rail transfers at Delridge for 10,000 riders on the 120 bus. As in Ballard, a post-election switch from an elevated track to a tunnel would drive up the price.",
     "date": 2030
   },
   {
     "layer": "Everett",
     "head": "Lynnwood-Everett light-rail",
-    "text": "Route includes Paine Field, to serve industrial employers or future passenger flight terminal. That swing stretches the Everett-Seattle trip time to a full hour. Low ridership is forecast at Everett Station, but apartments full of commuters surround Mariner and Ash Way stations.",
+    "text": "Route includes Paine Field, to serve industrial employers or future passenger flight terminal. That swing stretches the Everett-Seattle trip time to a full hour. Low ridership is forecast at Everett Station, but apartments full of commuters surround Mariner and Ash Way park-and-ride stations.",
     "date": 2036
   },
   {
     "layer": "Redmond",
     "head": "Overlake-Redmond line",
-    "text": "Quick infusion of ST3 money could build this $1 billion segment by 2024, years faster than with existing taxes. The extension adds 8,000 daily riders in 2040. It will serve Eastside tech workers and families in downtown Redmond, and help people reach Marymoor Park.",
+    "text": "Quick infusion of ST3 money could build this $1 billion segment by 2024, years faster than with existing taxes. The extension adds 8,000 daily riders in 2040. It would serve Eastside tech workers and families in downtown Redmond, and help people reach Marymoor Park.",
     "date": 2024
   },
   {
     "layer": "Kirkland",
     "head": "South Kirkland light rail",
-    "text": "A late addition, this site allows people to catch Highway 520 express buses, rather than make a two-train ride to Seattle via I-90. Added parking and nearby trail would help Kirklanders reach Bellevue hospitals, stores and offices by train.",
+    "text": "Added parking and nearby trail would help Kirklanders reach Bellevue hospitals, stores and offices by train. But people heading to Seattle may save time catching Highway 520 express buses, rather than making a two-train ride to Seattle via I-90.",
     "date": 2041
   },
   {
