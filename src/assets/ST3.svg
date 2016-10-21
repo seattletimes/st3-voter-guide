@@ -113,7 +113,7 @@
       }
     </style>
   </defs>
-  <title>ST3-final</title>
+  <title>ST3-final-2</title>
   <g id="Existing">
     <path class="cls-1" d="M349.32,444.21v-44.9l-43.12-33.93s-49.35-73.5-28.94-182.75c0,0,6.22-52.83,71-96,27.6-18.4,56.93-25,56.93-25" transform="translate(-104.33 -34.57)"/>
     <line class="cls-2" x1="384.23" y1="334.94" x2="413.41" y2="305.76"/>
@@ -221,7 +221,6 @@
     <rect class="cls-4" x="385.6" y="490.92" width="7.79" height="3.48" transform="translate(674.67 950.77) rotate(180)"/>
     <rect class="cls-4" x="385.6" y="524.92" width="7.79" height="3.48" transform="translate(674.67 1018.77) rotate(180)"/>
     <rect class="cls-4" x="385.6" y="537.92" width="7.79" height="3.48" transform="translate(674.67 1044.77) rotate(180)"/>
-    <rect class="cls-4" x="353.1" y="586.92" width="7.79" height="3.48" transform="translate(609.67 1142.77) rotate(180)"/>
     <rect class="cls-4" x="353.1" y="612.92" width="7.79" height="3.48" transform="translate(609.67 1194.77) rotate(180)"/>
     <rect class="cls-4" x="353.1" y="629.92" width="7.79" height="3.48" transform="translate(609.67 1228.77) rotate(180)"/>
     <text class="cls-11" transform="translate(261.17 598.85)">Angle Lake</text>
